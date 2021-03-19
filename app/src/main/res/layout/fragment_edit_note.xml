@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".presentation.ui.EditNoteFragment">
+
+    <TextView
+        android:id="@+id/editNoteTextView"
+        style="@style/text_view_header"
+        android:text="@string/editing_note_header"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/headerNoteTextView"
+        style="@style/text_view_note_header"
+        android:autofillHints=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editNoteTextView"
+        tools:ignore="LabelFor"
+        tools:text="Заголовок заметки" />
+
+    <EditText
+        android:id="@+id/textNoteEditText"
+        style="@style/edit_text_note_normal"
+        android:autofillHints=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/headerNoteTextView"
+        tools:ignore="LabelFor"
+        tools:text="Текст заметки" />
+
+    <Button
+        android:id="@+id/editNoteButton"
+        style="@style/button"
+        android:text="@string/btn_edit_note"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textNoteEditText" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

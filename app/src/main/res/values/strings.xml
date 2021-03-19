@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Заметки</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="btn_create_note">Создать заметку</string>
+    <string name="btn_edit_note">Сохранить изменения</string>
+
+    <string name="creating_note_header">Создание заметки</string>
+    <string name="viewing_note_header">Просмотр заметки</string>
+    <string name="editing_note_header">Редактирование заметки</string>
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/std_margin</item>
+        <item name="android:textSize">@dimen/note_normal_text</item>
+    </style>
+
+    <style name="edit_text_note_header">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/std_margin</item>
+        <item name="android:textSize">@dimen/note_header_text</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:inputType">text</item>
+    </style>
+
+    <style name="edit_text_note_normal">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/std_margin</item>
+        <item name="android:textSize">@dimen/note_normal_text</item>
+        <item name="android:inputType">text</item>
+    </style>
+
+    <style name="text_view_header">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/std_margin</item>
+        <item name="android:textSize">@dimen/header_text</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="text_view_note_header">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/std_margin</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/purple_500</item>
+        <item name="android:textSize">@dimen/note_header_text</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="text_view_note_normal">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/std_margin</item>
+        <item name="android:gravity">start</item>
+        <item name="android:textColor">@color/purple_500</item>
+        <item name="android:textSize">@dimen/note_normal_text</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="Image_view_splash1">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">16dp</item>
+    </style>
+
+    <style name="Image_view_splash2">
+        <item name="android:layout_width">90dp</item>
+        <item name="android:layout_height">11dp</item>
+        <item name="android:layout_margin">16dp</item>
+    </style>
+</resources>
