@@ -3,7 +3,6 @@ package com.example.mynotes.presentation.presenters
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.mynotes.R
 import com.example.mynotes.domain.entities.Note
@@ -50,9 +49,5 @@ class NoteListAdapter : RecyclerView.Adapter<NoteListAdapter.ViewHolder>() {
             itemView.itemHeaderTextView.text = note.header
             itemView.itemBodyTextView.text = note.text
         }
-    }
-
-    interface NoteListener {
-        fun onNoteClick(note: Note)
     }
 }

@@ -1,7 +1,5 @@
 package com.example.mynotes.domain.repository
 
-import androidx.lifecycle.LiveData
-import com.example.mynotes.data.model.NoteModel
 import com.example.mynotes.domain.entities.Note
 
 interface DatabaseRepository {

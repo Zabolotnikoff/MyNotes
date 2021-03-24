@@ -5,7 +5,6 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.example.mynotes.MainActivity
 import com.example.mynotes.R
 import com.example.mynotes.utils.ACTIVITY
 import kotlinx.coroutines.CoroutineScope

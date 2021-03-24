@@ -1,9 +1,7 @@
 package com.example.mynotes.data.repository
 
-import androidx.lifecycle.LiveData
 import com.example.mynotes.data.converter.Converter
 import com.example.mynotes.data.datasource.RoomDao
-import com.example.mynotes.data.model.NoteModel
 import com.example.mynotes.domain.entities.Note
 import com.example.mynotes.domain.repository.DatabaseRepository
 

@@ -17,7 +17,6 @@ class AddNoteFragment : Fragment() {
     private val addViewModel: AddViewModel by lazy {
         ViewModelProvider(this).get(AddViewModel::class.java)
     }
-    private lateinit var editedNote: Note
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,

@@ -55,9 +55,4 @@ class NoteFragment : Fragment() {
         headerNoteTextView.text = note.header
         textNoteTextView.text = note.text
     }
-
-    override fun onDestroyView() {
-        super.onDestroyView()
-    }
-
 }

@@ -1,10 +1,9 @@
 package com.example.mynotes.presentation.presenters
 
-
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.MutableLiveData
-import androidx.lifecycle.ViewModel
+
 import androidx.lifecycle.viewModelScope
 import com.example.mynotes.domain.entities.Note
 import com.example.mynotes.utils.DATABASE_REPOSITORY

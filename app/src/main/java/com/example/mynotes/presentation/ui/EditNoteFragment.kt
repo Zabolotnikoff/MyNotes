@@ -9,7 +9,6 @@ import androidx.lifecycle.ViewModelProvider
 import com.example.mynotes.R
 import com.example.mynotes.domain.entities.Note
 import com.example.mynotes.presentation.presenters.EditViewModel
-import com.example.mynotes.presentation.presenters.NoteViewModel
 import com.example.mynotes.utils.ACTIVITY
 import kotlinx.android.synthetic.main.fragment_edit_note.*
 
@@ -35,7 +34,12 @@ class EditNoteFragment : Fragment() {
         bind(editedNote)
 
         editNoteButton.setOnClickListener {
-            editViewModel.update(Note(id = editedNote.id, header = editedNote.header, text = textNoteEditText.text.toString())
+            editViewModel.update(
+                Note(
+                    id = editedNote.id,
+                    header = editedNote.header,
+                    text = textNoteEditText.text.toString()
+                )
             ) {
                 ACTIVITY.navController.navigate(R.id.action_editNoteFragment_to_noteListFragment)
             }

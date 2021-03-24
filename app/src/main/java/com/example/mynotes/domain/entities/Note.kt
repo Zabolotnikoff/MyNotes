@@ -1,6 +1,5 @@
 package com.example.mynotes.domain.entities
 
-import android.text.Editable
 import java.io.Serializable
 
 data class Note(
