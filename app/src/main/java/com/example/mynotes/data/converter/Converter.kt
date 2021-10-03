@@ -15,7 +15,8 @@ abstract class Converter() {
 
         fun fromModelToNote(from: NoteModel): Note =
             Note(
-                id = from.id ?: -1,
+//                id = from.id ?: -1,
+                id = from.id ?: 0,
                 header = from.header ?: "",
                 text = from.text ?: ""
             )

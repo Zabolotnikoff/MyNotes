@@ -6,6 +6,9 @@
     <string name="btn_create_note">Создать заметку</string>
     <string name="btn_edit_note">Сохранить изменения</string>
 
+    <string name="hint_header">Заголовок заметки</string>
+    <string name="hint_note">Текст заметки</string>
+
     <string name="creating_note_header">Создание заметки</string>
     <string name="viewing_note_header">Просмотр заметки</string>
     <string name="editing_note_header">Редактирование заметки</string>
