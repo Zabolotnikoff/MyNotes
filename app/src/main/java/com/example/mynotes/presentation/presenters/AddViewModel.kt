@@ -10,7 +10,7 @@ import kotlinx.coroutines.launch
 
 class AddViewModel(application: Application) : AndroidViewModel(application) {
     fun insert(note: Note, callback: () -> Unit) =
-        viewModelScope.launch(Dispatchers.IO) {
+        viewModelScope.launch(Dispatchers.Main) {
             DATABASE_REPOSITORY.insert(note) {
                 callback()
             }

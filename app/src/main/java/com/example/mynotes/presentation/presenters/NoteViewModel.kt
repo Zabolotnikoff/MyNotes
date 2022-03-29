@@ -10,7 +10,7 @@ import kotlinx.coroutines.launch
 
 class NoteViewModel(application: Application) : AndroidViewModel(application) {
     fun delete(note: Note, callback: () -> Unit) =
-        viewModelScope.launch(Dispatchers.IO) {
+        viewModelScope.launch(Dispatchers.Main) {
             DATABASE_REPOSITORY.delete(note) {
                 callback()
             }

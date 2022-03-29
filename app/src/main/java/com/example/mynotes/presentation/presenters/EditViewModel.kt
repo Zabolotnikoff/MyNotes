@@ -10,7 +10,7 @@ import kotlinx.coroutines.launch
 
 class EditViewModel(application: Application) : AndroidViewModel(application) {
     fun update(note: Note, callback: () -> Unit) =
-        viewModelScope.launch(Dispatchers.IO) {
+        viewModelScope.launch(Dispatchers.Main) {
             DATABASE_REPOSITORY.update(note) {
                 callback()
             }
